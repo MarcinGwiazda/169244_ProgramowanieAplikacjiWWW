@@ -35,7 +35,7 @@ function PokazKontakt() {
     ';
 }
 
-// 📧 Funkcja wysyłania wiadomości przez PHPMailer
+//  Funkcja wysyłania wiadomości przez PHPMailer
 function WyslijMailKontakt($odbiorca) {
     if (empty($_POST['temat']) || empty($_POST['tresc']) || empty($_POST['email'])) {
         echo '[nie_wypelniles_pola]';
@@ -71,7 +71,7 @@ function WyslijMailKontakt($odbiorca) {
     }
 }
 
-// 📧 Funkcja do przypomnienia hasła admina przez PHPMailer
+//  Funkcja do przypomnienia hasła admina przez PHPMailer
 function PrzypomnijHaslo() {
     $admin_email = "marcin@gmail.com"; 
     $admin_password = "haslo";

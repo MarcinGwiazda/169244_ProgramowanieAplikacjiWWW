@@ -11,15 +11,16 @@ body {
 
 header {
     text-align: center;
-    padding: 20px 0;
+	padding: 10px 0;
     background-color: white;
     box-shadow: 0px 4px 8px;
 }
 
 header h1 {
-    font-size: 40px;
+    font-size: 45px;
     color: goldenrod;
-    margin-bottom: 20px;
+    margin: 0;
+	padding: 10px 0;
 }
 
 table {
